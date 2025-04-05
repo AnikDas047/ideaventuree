@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IdeaVenture | Where Ideas Come Alive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="video-bg">
+        <video autoplay muted loop playsinline>
+            <source src="bg-animation.mp4" type="video/mp4">
+        </video>
+        <div class="color-overlay"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo" data-aos="fade-down">
+                    <img src="logo.png" alt="IdeaVenture">
+                </div>
+                <ul class="nav-links" data-aos="fade-down">
+                    <li><a href="index.html" class="active"><span>Home</span></a></li>
+                    <li><a href="about.html"><span>About</span></a></li>
+                    <li><a href="events.html"><span>Events</span></a></li>
+                    <li><a href="gallery.html"><span>Gallery</span></a></li>
+                    <li><a href="contact.html"><span>Contact</span></a></li>
+                    <li><a href="tickets.html" class="btn btn-gradient"><span>Get Tickets</span></a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 data-aos="fade-up" data-aos-delay="200">
+                    <span class="text-gradient">WHERE IDEAS</span>
+                    <span class="text-gradient">COME ALIVE</span>
+                </h1>
+                <p data-aos="fade-up" data-aos-delay="400">The ultimate fusion of creativity × tech × innovation</p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+                    <a href="tickets.html" class="btn btn-gradient btn-large btn-shine">
+                        <span>Get Tickets</span>
+                    </a>
+                    <a href="events.html" class="btn btn-outline btn-large">
+                        <span>Explore Events</span>
+                    </a>
+                </div>
+                <div class="social-proof" data-aos="fade-up" data-aos-delay="800">
+                    <div class="avatars">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Attendee">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Attendee">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Attendee">
+                    </div>
+                    <p>Join 10K+ innovators already experiencing IdeaVenture</p>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <span>Scroll</span>
+                <div class="mouse"></div>
+            </div>
+        </section>
+
+        <section class="countdown">
+            <div class="container">
+                <h2 data-aos="fade-up">Next Big Event Starts In</h2>
+                <div class="timer" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timer-box">
+                        <span id="days">00</span>
+                        <small>Days</small>
+                    </div>
+                    <div class="timer-box">
+                        <span id="hours">00</span>
+                        <small>Hours</small>
+                    </div>
+                    <div class="timer-box">
+                        <span id="minutes">00</span>
+                        <small>Minutes</small>
+                    </div>
+                    <div class="timer-box">
+                        <span id="seconds">00</span>
+                        <small>Seconds</small>
+                    </div>
+                </div>
+                <div class="countdown-buttons" data-aos="fade-up" data-aos-delay="400">
+                    <button class="btn btn-gradient btn-notify">
+                        <i class="fas fa-bell"></i>
+                        <span>Notify Me</span>
+                    </button>
+                    <a href="#" class="btn btn-text">
+                        <i class="fas fa-share-alt"></i>
+                        <span>Share</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="highlights">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Why IdeaVenture?</h2>
+                    <p>More than just an event - it's a movement</p>
+                </div>
+                <div class="features">
+                    <div class="feature" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Next-Level Energy</h3>
+                        <p>Vibes that'll electrify your creativity</p>
+                        <a href="#" class="btn btn-text">
+                            <span>Learn more</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="feature" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Dope Community</h3>
+                        <p>Connect with the most innovative minds</p>
+                        <a href="#" class="btn btn-text">
+                            <span>Learn more</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="feature" data-aos="fade-up" data-aos-delay="400">
+                        <div class="feature-icon">
+                            <i class="fas fa-camera-retro"></i>
+                        </div>
+                        <h3>Insta-Worthy</h3>
+                        <p>Spaces designed for your feed</p>
+                        <a href="#" class="btn btn-text">
+                            <span>Learn more</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="instagram-feed">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>#IdeaVenture</h2>
+                    <p>See what's popping on the 'gram</p>
+                </div>
+                <div class="feed-grid" data-aos="fade-up">
+                    <div class="ig-post">
+                        <img src="gallery1.jpg" alt="Instagram post">
+                        <div class="ig-overlay">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="ig-post">
+                        <img src="gallery2.jpg" alt="Instagram post">
+                        <div class="ig-overlay">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="ig-post">
+                        <img src="C:\Users\anikd\OneDrive\Pictures\makaut_ist_20230422_125256.jpg" alt="Instagram post">
+                        <div class="ig-overlay">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                    <div class="ig-post">
+                        <img src="event1.jpg" alt="Instagram post">
+                        <div class="ig-overlay">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta" data-aos="fade-up">
+                    <a href="#" class="btn btn-outline">
+                        <i class="fab fa-instagram"></i>
+                        <span>Follow Us</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="IdeaVenture" class="footer-logo">
+                    <p>Where ideas come alive and creativity thrives</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="links-column">
+                        <h3>Explore</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                        </ul>
+                    </div>
+                    <div class="links-column">
+                        <h3>Support</h3>
+                        <ul>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                    <div class="links-column">
+                        <h3>Join Us</h3>
+                        <ul>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Volunteer</a></li>
+                            <li><a href="#">Sponsors</a></li>
+                            <li><a href="#">Creators</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 IdeaVenture. All rights reserved. Made with <i class="fas fa-heart"></i> for innovators</p>
+                <div class="app-links">
+                    <a href="#" class="app-store">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" alt="App Store">
+                    </a>
+                    <a href="#" class="google-play">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>

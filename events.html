@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events | IdeaVenture</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animations.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="video-bg">
+        <video autoplay muted loop playsinline>
+            <source src="bg-animation.mp4" type="video/mp4">
+        </video>
+        <div class="color-overlay"></div>
+    </div>
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo" data-aos="fade-down">
+                    <img src="logo.png" alt="IdeaVenture">
+                </div>
+                <ul class="nav-links" data-aos="fade-down">
+                    <li><a href="index.html"><span>Home</span></a></li>
+                    <li><a href="about.html"><span>About</span></a></li>
+                    <li><a href="events.html" class="active"><span>Events</span></a></li>
+                    <li><a href="gallery.html"><span>Gallery</span></a></li>
+                    <li><a href="contact.html"><span>Contact</span></a></li>
+                    <li><a href="tickets.html" class="btn btn-gradient"><span>Get Tickets</span></a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 data-aos="fade-up">Our Events</h1>
+                <p data-aos="fade-up" data-aos-delay="200">Experiences that'll blow your mind</p>
+            </div>
+        </section>
+
+        <section class="events-section">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Upcoming Experiences</h2>
+                    <p>Don't miss out on these epic gatherings</p>
+                </div>
+                
+                <div class="event-cards">
+                    <div class="event-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="event-image">
+                            <img src="event1.jpg" alt="Neon Dreams">
+                            <div class="event-date">
+                                <span class="day">15</span>
+                                <span class="month">Jun</span>
+                            </div>
+                        </div>
+                        <div class="event-details">
+                            <div class="event-tag">Featured</div>
+                            <h3>Neon Dreams</h3>
+                            <div class="event-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> Digital Frontier</span>
+                                <span><i class="fas fa-clock"></i> 3 Days</span>
+                            </div>
+                            <p>A futuristic journey through light, sound and digital art that will redefine your perception of reality.</p>
+                            <div class="event-footer">
+                                <a href="tickets.html" class="btn btn-gradient">Get Tickets</a>
+                                <button class="btn btn-text">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="event-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="event-image">
+                            <img src="event2.jpg" alt="Mindscape">
+                            <div class="event-date">
+                                <span class="day">22</span>
+                                <span class="month">Aug</span>
+                            </div>
+                        </div>
+                        <div class="event-details">
+                            <h3>Mindscape</h3>
+                            <div class="event-meta">
+                                <span><i class="fas fa-map-marker-alt"></i> The IdeaSphere</span>
+                                <span><i class="fas fa-clock"></i> 4 Days</span>
+                            </div>
+                            <p>An immersive journey through the landscapes of imagination with interactive installations and performances.</p>
+                            <div class="event-footer">
+                                <a href="tickets.html" class="btn btn-gradient">Get Tickets</a>
+                                <button class="btn btn-text">
+                                    <i class="far fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="past-events">
+            <div class="container">
+                <div class="section-header" data-aos="fade-up">
+                    <h2>Past Highlights</h2>
+                    <p>Relive the magic from previous years</p>
+                </div>
+                
+                <div class="past-event-grid">
+                    <div class="past-event" data-aos="fade-up" data-aos-delay="200">
+                        <div class="past-event-image">
+                            <img src="gallery1.jpg" alt="Digital Dawn">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <h3>Digital Dawn 2022</h3>
+                        <p>The beginning of our virtual reality experience series</p>
+                    </div>
+                    
+                    <div class="past-event" data-aos="fade-up" data-aos-delay="300">
+                        <div class="past-event-image">
+                            <img src="gallery2.jpg" alt="Creative Convergence">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <h3>Creative Convergence 2021</h3>
+                        <p>Where artists and technologists first came together</p>
+                    </div>
+                    
+                    <div class="past-event" data-aos="fade-up" data-aos-delay="400">
+                        <div class="past-event-image">
+                            <img src="gallery3.jpg" alt="IdeaFest">
+                            <div class="play-button">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <h3>IdeaFest 2020</h3>
+                        <p>Our inaugural event that started it all</p>
+                    </div>
+                </div>
+                
+                <div class="cta" data-aos="fade-up">
+                    <a href="gallery.html" class="btn btn-outline">
+                        <span>View Full Gallery</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="animations.js"></script>
+</body>
+</html>
